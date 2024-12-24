@@ -1,0 +1,29 @@
+Instructions for Using Git:
+Download the Python Script:
+
+Download the Python script (xyz.py) from the repository or provided link.
+Prepare the Input File:
+
+First, copy all the links from the FitGirl Repack Pastebin.
+Paste all these links into a text file, which will be named input_files.txt.
+Ensure that this file is placed in the same directory where you downloaded the Python script.
+Install Git and Python Dependencies:
+
+If you don't have Git installed, download and install it from the official Git website.
+Open the terminal or command prompt and navigate to the directory where you downloaded the script.
+Install the necessary Python libraries by running:
+Copy code
+pip install requests beautifulsoup4
+Run the Script:
+
+In the terminal, navigate to the directory where the xyz.py file and input_files.txt are located.
+Run the script using the following command:
+Copy code
+python xyz.py
+The script will extract the links and save them in a file called extracted_links.txt.
+Download the Links Using IDM:
+
+Open IDM (Internet Download Manager).
+Go to the Tasks tab and click on Import.
+Select the extracted_links.txt file and click OK.
+Your download task will be added and ready for use.
